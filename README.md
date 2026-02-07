@@ -1,5 +1,5 @@
 # Control-Simulation-Demo
-The repo is meant to pair with a lecture in using Python for Control and Simulation in potential manufacturing applications. The code and repository will leverage open-source libraries available through pip and conda forge.
+The repo is meant to pair with a lecture in using Python for Control and Simulation in potential manufacturing applications. The code and repository will leverage open-source libraries.
 
 ## Notebook
 The `verify/verify_environment.ipynb` notebook checks that required libraries import cleanly and includes an interactive mass-spring-damper demo. Use the `m`, `c`, and `k` sliders to see how parameter changes affect the system response.
