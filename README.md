@@ -14,6 +14,9 @@ Work through the exercises in order. Start with Exercise 0 to verify your setup.
 | 3 | `Exercise_03_Digital_Control` | Discrete-time PID, actuator saturation, anti-windup, sensor noise |
 | 4 | `Exercise_04_Interactive_Controls` | Interactive conveyor belt speed control exploration |
 | 5 | `Exercise_05_Cruise_Control` | Capstone — PID cruise control application |
+| 6 | `Exercise_06_Manufacturing_Translation` | Conveyor, oven, and tank — controls meet manufacturing |
+| 7 | `Exercise_07_Faults_vs_Disturbances` | Diagnosing abnormal responses: faults, disturbances, sensor issues |
+| 8 | `Exercise_08_PdM_and_Control_Decisions` | Control metrics to maintenance decisions and manufacturing KPIs |
 
 ## Quick Start
 
