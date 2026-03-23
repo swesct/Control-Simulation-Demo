@@ -1,4 +1,4 @@
-# Interactive Controls & Dynamics Demo
+# Exercise 4 — Interactive Controls & Dynamics
 
 Interactive Jupyter notebook for exploring PID control, transfer functions, and state-space models on a conveyor belt speed control system.
 

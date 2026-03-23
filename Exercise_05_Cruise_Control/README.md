@@ -1,4 +1,4 @@
-# Cruise Control Demo
+# Exercise 5 — Cruise Control (Capstone)
 
 Interactive Jupyter notebook for exploring PID cruise control on a simplified vehicle model.
 

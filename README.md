@@ -1,19 +1,32 @@
-# Control-Simulation-Demo
-The repo is meant to pair with a lecture in using Python for Control and Simulation in potential manufacturing applications. The code and repository will leverage open-source libraries.
+# Control & Simulation Demo
 
-## Notebook
-The `verify/verify_environment.ipynb` notebook checks that required libraries import cleanly and includes an interactive mass-spring-damper demo. Use the `m`, `c`, and `k` sliders to see how parameter changes affect the system response.
+A hands-on lecture series using Python for control systems and simulation in manufacturing applications. All exercises use open-source libraries.
+
+## Exercise Roadmap
+
+Work through the exercises in order. Start with Exercise 0 to verify your setup.
+
+| Exercise | Folder | Topic |
+|----------|--------|-------|
+| 0 | `Exercise_00_Environment_Setup` | Environment verification — confirm all libraries are installed |
+| 1 | `Exercise_01_System_Dynamics` | First & second order dynamics, damping sweeps, step response metrics |
+| 2 | `Exercise_02_Feedback_Control` | Proportional, PI, PID control & disturbance rejection |
+| 3 | `Exercise_03_Digital_Control` | Discrete-time PID, actuator saturation, anti-windup, sensor noise |
+| 4 | `Exercise_04_Interactive_Controls` | Interactive conveyor belt speed control exploration |
+| 5 | `Exercise_05_Cruise_Control` | Capstone — PID cruise control application |
+
+## Quick Start
+
+1. Create and activate a Python 3.10+ environment.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Launch Jupyter and open `Exercise_00_Environment_Setup/verify_environment.ipynb`.
+4. Once all checks pass, proceed to Exercise 01.
 
 ## Requirements
-If you run the notebook outside a fully featured environment, ensure `ipywidgets` is available for the sliders.
 
-## Install
-1. Create and activate a Python 3.10+ environment.
-2. Install dependencies with pip:
-   - `python -m pip install control numpy plotly ipywidgets`
-3. Launch Jupyter and open `verify/verify_environment.ipynb`.
+See `requirements.txt` for the full list. Core packages:
 
-If you prefer conda:
-1. `conda create -n control-demo python=3.10`
-2. `conda activate control-demo`
-3. `conda install -c conda-forge control numpy plotly ipywidgets`
+`numpy` · `scipy` · `matplotlib` · `control` · `plotly` · `ipywidgets` · `sympy` · `anywidget`
