@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scipy
+control
+sympy
+ipywidgets
+plotly
+anywidget
